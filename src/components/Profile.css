@@ -1,0 +1,73 @@
+.profile-page-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.profile-page-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color:brown;
+  margin-bottom: 2rem;
+}
+
+.user-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.user-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+}
+
+.user-profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 3px solid #1052cc; 
+}
+
+.user-name {
+  font-size: 1.8rem;
+  color: #007bff;
+  margin-bottom: 0.5rem;
+}
+
+.user-email,
+.user-bio,
+.user-last-login {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 0.3rem;
+  line-height: 1.4;
+}
+
+.user-bio {
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .profile-page-title {
+    font-size: 2rem;
+  }
+  .user-cards-grid {
+    grid-template-columns: 1fr; 
+  }
+}

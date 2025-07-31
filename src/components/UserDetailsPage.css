@@ -1,0 +1,111 @@
+.user-details-readonly {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem;
+    background-color: #e9ecef;
+    border-radius: 8px;
+}
+
+.user-details-readonly p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.user-details-readonly button {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color:rgb(214, 210, 7);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width:5rem;
+}
+
+.user-details-readonly button:hover {
+    background-color:rgb(163, 161, 41);
+}
+
+.button-group {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.button-group button {
+    flex: 1;
+}
+
+.user-details-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; 
+    padding: 30px;
+}
+
+.user-details-form label {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-details-form input,
+.user-details-form textarea {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+.user-details-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.user-details-form input:focus,
+.user-details-form textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.button-group {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.button-group button {
+    flex: 1; 
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-group button:first-of-type {
+    background-color: #007bff; 
+    color: #fff;
+}
+
+.button-group button:last-of-type {
+    background-color: #dc3545; 
+    color: #fff;
+}
+
+.button-group button:hover {
+    opacity: 0.9;
+}
+
+.user-details-title{
+    color: brown;
+    padding:0px 25px
+}
