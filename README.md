@@ -1,3 +1,8 @@
+cd React Assignment
+cd vite-project
+bun dev  -> install bun -> npm i bun@latest
+Also install axios -> npm i axios
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
